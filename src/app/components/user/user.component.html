@@ -20,7 +20,17 @@
 </ul>
 
 <button (click)='clickMe()'>Click Me</button>
+<h1>Hobbies:</h1>
 
+
+<form>
+  <div (ngSubmit)='addHobby(newhobby.value)'>
+    <label for='newhobby'>Hobby</label>
+    <input type="text" #newhobby>
+  </div>
+</form>
 <ul>
-  <li *ngFor='let hobby of hobbies, let i=index'>{{i+1}} {{hobby}}</li>
+  <li *ngFor='let hobby of hobbies, let i=index'>
+    {{i+1}} {{hobby}} <button (click)="deleteHobby(hobby)">X</button>
+  </li>
 </ul>

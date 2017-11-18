@@ -50,6 +50,16 @@ export class UserComponent implements OnInit {
     this.hobbies.push('New Hobby')
   }
 
+  addHobby(hobby){debugger
+    console.log(hobby);
+    this.hobbies.unshift(hobby);
+    return false;
+  }
+
+  deleteHobby(hobby){
+    console.log(hobby)
+  }
+
 }
 
 
