@@ -1,1 +1,26 @@
-CC
+<ul>
+  <li>
+    {{fname}}
+  </li>
+  <li>
+    {{lname}}
+  </li>
+  <li>
+    {{age}}
+  </li>
+  <li>
+    {{address.city}}
+  </li>
+  <li>
+    {{address1.city}}
+  </li>
+  <li>
+    {{hobbies}}
+  </li>
+</ul>
+
+<button (click)='clickMe()'>Click Me</button>
+
+<ul>
+  <li *ngFor='let hobby of hobbies, let i=index'>{{i+1}} {{hobby}}</li>
+</ul>
