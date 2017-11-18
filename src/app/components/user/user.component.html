@@ -12,7 +12,7 @@
     {{address.city}}
   </li>
   <li>
-    {{address1.city}}
+    {{address.state}}
   </li>
   <li>
     {{hobbies}}
@@ -29,30 +29,21 @@
       <input type="text" [(ngModel)]='fname' name="fname">
   </div>
   <div>
+      <label>Last Name:</label><br>
+      <input type="text" [(ngModel)]='lname' name="lname">
+  </div>
+  <div>
       <label>Age:</label><br>
-      <input type="number">
-  </div>
-  <div>
-      <label>Email:</label><br>
-      <input type="text">
-  </div>
-  <div>
-      <label>Street:</label><br>
-      <input type="text">
+      <input type="number" [(ngModel)]='age' name="age">
   </div>
   <div>
       <label>City:</label><br>
-      <input type="text">
+      <input type="text" [(ngModel)]='address.city' name="city">
   </div>
   <div>
       <label>State:</label><br>
-      <input type="text">
+      <input type="text" [(ngModel)]='address.state' name="state">
   </div>
-  <div>
-      <label>Name:</label><br>
-      <input type="text">
-  </div>
- 
 </form>
 <h1>Hobbies:</h1>
 
