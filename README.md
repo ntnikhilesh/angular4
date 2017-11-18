@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # A4project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.2.
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# angular4
+>>>>>>> e4976b13b9cbd9a760dbe156b9e7c1e53682978c
